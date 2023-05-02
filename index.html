@@ -1,49 +1,56 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-
-        </title>
+        <link rel="stylesheet" href="css/style.css">
+        <title> Sarah Banks Portfolio </title>
     </head>
     <body>
-        <div class="header logo">
-            <img source> UX_UI_HW_17/images/logoportfolio.png 
-<!-- added in the "UX_UI_HW_17" section above, but currently not functioning -->
-            <section class= "heroimg"> 
-                <div class= "content">
-                    <img source> UX_UI_HW_17/images/portraitforportfolio.png
-                    <p>
-                        I’m an UX designer 
-                        I aim to create helpful user experiences, in all forms of digital products.
-                    </p>
-                    <button> 
-                        See My Work...
-                    </button>
-                </div>
+
+        <header class ="Navigation">
+
+            <div class="header logo">
+                <img src="images/logoportfolio.png"> <!-- made modification, by taking out "UX_UI_HW_17/" in this line-->
+            </div>
+
 <!-- section below: includes header navigation, with buttons "Home" "About" "Contact" "Work" -->
-        <nav class="inline-block">
-            <ul>
-                <li class="inline-block">
-                    Home
-                </li>
-                <li class="inline-block">
-                    About
-                </li>
-                <li class="inline-block">
-                    Work
-                </li>
-                <li class="inline-block">
-                    Contact
-                </li>
-            </ul>
-        </nav>
+            <nav class="inline-block">
+                <ul>
+                    <li class="inline-block"> <!-- made into link (like clickable nav bar button) --> 
+                        <button> Home </button> 
+                    </li>
+                    <li class="inline-block"> <!-- made into link (like clickable nav bar button) -->
+                        <button> About</button> 
+                    </li>
+                    <li class="inline-block"> <!-- made into link (like clickable nav bar button) -->
+                        <button> Work</button> 
+                    </li>
+                    <li class="inline-block"> <!-- made into link (like clickable nav bar button) -->
+                        <button> Contact</button> 
+                    </li>
+                </ul>
+            </nav>
+        </header>
+<!-- added in the "UX_UI_HW_17" section above, but currently not functioning -->
+        <section class= "heroimg"> 
+            <div class= "content">
+                <img src ="images/portraitforportfolio.png"> <!--I also removed the same section, as line 13-->
+                <p>
+                    I'm an UX designer 
+                    I aim to create helpful user experiences, in all forms of digital products.
+                </p>
+                <button> 
+                    See My Work...
+                </button>
+            </div>
+        </section>
+
 <!-- In the HW instructions, it says to add the footer, into the section, class heroimg
 unsure if this is the right place for it -->
         <footer> 
             <ul>
                 <li class="inline-block">
-                    Footer: Home  <!-- Note, I added "Footer" here, remove for linked nav button -->
-                </li>
+                    Home  
+                </li>    
                 <li class="inline-block">
                     About
                 </li>
@@ -56,8 +63,6 @@ unsure if this is the right place for it -->
             </ul>
         </footer>
 
-</section>
-</div>
 
     </body>
 </html>
